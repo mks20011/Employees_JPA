@@ -13,6 +13,7 @@ public class PersonService implements IPersonService {
 
     @Override
     public List<Person> getAll() {
+
         return personDao.getAll();
     }
 

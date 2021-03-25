@@ -22,7 +22,7 @@ import javax.ws.rs.core.Response;
 public class ItemRestService {
 
     @Inject
-    private IPersonService iPersonService;
+    IPersonService iPersonService;
 
     @GET
     @Produces(MediaType.APPLICATION_JSON)
